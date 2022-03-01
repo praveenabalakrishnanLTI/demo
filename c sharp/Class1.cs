@@ -1,4 +1,4 @@
-﻿/*using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,14 +9,14 @@ namespace ConsoleApp1
     internal class Class1
     {   //member variable
         public string name;
-        /*public int rollno;
+       public int rollno;
         public long mobileno;
         public int age;
         public DateTime dob;
         public string location;
         public string gender;
-        public int marks;*/
-       /* public static void Main()
+        public int marks;
+        public static void Main()
         {
             Class1 obj = new Class1();
             obj.AcceptDetails();
@@ -39,7 +39,7 @@ namespace ConsoleApp1
             }
             Console.WriteLine("The number of upper case in {0} is {1}", name, cnt);
         }
-            /*Console.WriteLine("Enter your rollno");
+            Console.WriteLine("Enter your rollno");
             rollno = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Enter your mobileno");
@@ -63,7 +63,7 @@ namespace ConsoleApp1
         public void DisplayDetails()
         {
             Console.WriteLine("Your name is:" +name);
-            /*Console.WriteLine("Your rollno is: {0}", rollno);
+            Console.WriteLine("Your rollno is: {0}", rollno);
             Console.WriteLine("Your mobileno is: {0}", mobileno);
             Console.WriteLine("Your age is: {0}",age);
             Console.WriteLine("Your date of birth is: {0}", dob.ToShortDateString());
@@ -72,4 +72,4 @@ namespace ConsoleApp1
             Console.WriteLine("Your marks is: {0}", marks);
         }
     }
-}*/
+}
